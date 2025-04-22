@@ -1,0 +1,3 @@
+#steps to process different data sources to build statistical models:
+
+1. Extract fire polygons, find centroids, filter to keep only fires observed in Scotland
