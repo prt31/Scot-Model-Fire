@@ -1,1 +1,12 @@
+#Rainfall
 
+#create daily rainfall average by month over 1960-1990 period
+month='12'
+days=31
+srt=pd.date_range('1960'+month+'01','1990'+month+'01',freq='12MS').strftime("%Y%m%d")
+edd=pd.date_range('1960'+month+'01','1990'+month+'01',freq='12ME').strftime("%Y%m%d")
+
+dir='/badc/ukmo-hadobs/data/insitu/MOHC/HadOBS/HadUK-Grid/v1.2.0.ceda/1km/rainfall/day/latest/rainfall_hadukgrid_uk_1km_day_'
+fnames=[(dir+i+'-'+j+'.nc') for i,j in zip(srt,edd)]
+#fnames
+all_dataset=xr.open_mfdataset(fnames)
