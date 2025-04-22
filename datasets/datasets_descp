@@ -3,5 +3,14 @@
 1. The GlobFire database (Artés et al. 2019) global fire dataset
 2. Had-UK Grid (Hollis et al. 2019) is a long-term climate dataset of in situ weather observations gridded on various resolutions for the UK.
 3. Hydro-PE dataset (Robinson et al. 2023) based on HadUK-Grid (1969–2022) 
-4. SPI indices e.g. 3-,12-,24- and 48-month accumulation periods produced by the Copernicus European Drought Observatory (EDO)
+4. SPI indices e.g. 3-,12-,24- and 48-month accumulation periods produced by the Copernicus European Drought Observatory (EDO 2025)
 5. NAO index is obtained from the NOAA climate monitoring service (NOAA 2025)
+
+References:
+
+Artés, T. et al. (2019) ‘A global wildfire dataset for the analysis of fire regimes and fire behaviour’, Scientific Data, 6(1), p. 296. Available at: https://doi.org/10.1038/s41597-019-0312-2.
+EDO (2025) European Drought Observatory indicator data. Available at: https://drought.emergency.copernicus.eu/tumbo/edo/download/ (Accessed: 22 April 2025).
+Hollis, D. et al. (2019) ‘HadUK‐Grid—A new UK dataset of gridded climate observations’, Geoscience Data Journal, 6(2), pp. 151–159. Available at: https://doi.org/10.1002/gdj3.78.
+NOAA (2025) North Atlantic Oscillation (NAO) | National Centers for Environmental Information (NCEI), NAO index. Available at: https://www.ncei.noaa.gov/access/monitoring/nao/ (Accessed: 22 April 2025).
+Robinson, E.L. et al. (2023) ‘Hydro-PE: gridded datasets of historical and future Penman–Monteith potential evaporation for the United Kingdom’, Earth System Science Data, 15(10), pp. 4433–4461. Available at: https://doi.org/10.5194/essd-15-4433-2023.
+
